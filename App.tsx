@@ -12,7 +12,7 @@ const App: React.FC = () => {
           profileImageUrl="https://i.imgur.com/vKV4Swp.png"
           title="Eduardo Varenes"
           description="Um cristão entusiasta do universo Marvel,
-          construindo seus próprios mundos como escritor."
+          construindo mundos como escritor."
         />
 
         {FEATURED_CONTENT.enabled && (
