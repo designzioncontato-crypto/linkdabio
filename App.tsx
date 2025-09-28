@@ -11,7 +11,8 @@ const App: React.FC = () => {
         <Header
           profileImageUrl="https://i.imgur.com/BRljRxP.jpeg"
           title="Eduardo Varenes"
-          description="A curated collection of books I'm reading or recommend. Click on any cover to learn more."
+          description="Um entusiasta do universo Marvel, fã de Naruto, admirador de Avatar: the last airbender.
+          Gosto muito de filmes de suspense policial, além de amar a Palavra de Deus. Um escritor nas horas vagas. "
         />
 
         {FEATURED_CONTENT.enabled && (
@@ -27,7 +28,7 @@ const App: React.FC = () => {
         </div>
       </main>
       <footer className="text-center py-6 text-accent text-sm">
-        <p>&copy; {new Date().getFullYear()} My Digital Bookshelf. All Rights Reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Eduardo Varenes. All Rights Reserved.</p>
       </footer>
     </div>
   );
