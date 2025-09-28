@@ -18,7 +18,7 @@ export const Header: React.FC<HeaderProps> = ({ profileImageUrl, title, descript
       <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-white">
         {title}
       </h1>
-      <p className="max-w-xl text-md sm:text-lg text-accent">
+      <p className="max-w-xl text-md sm:text-lg text-gray-400">
         {description}
       </p>
       <SocialLinks />

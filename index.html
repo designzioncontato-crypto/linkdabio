@@ -14,8 +14,8 @@
         theme: {
           extend: {
             colors: {
-              'background': '#352418',
-              'accent': '#b7a18d',
+              'background': '#141414', // Netflix Black
+              'accent': '#E50914',     // Netflix Red
             }
           }
         }
@@ -27,14 +27,14 @@
         width: 8px;
       }
       ::-webkit-scrollbar-track {
-        background: #352418;
+        background: #141414; /* Netflix Black */
       }
       ::-webkit-scrollbar-thumb {
-        background: #b7a18d;
+        background: #E50914; /* Netflix Red */
         border-radius: 10px;
       }
       ::-webkit-scrollbar-thumb:hover {
-        background: #c7b19d; /* Lighter accent color */
+        background: #f40612; /* Brighter Netflix Red */
       }
       body {
         font-family: 'Inter', sans-serif;
@@ -49,7 +49,6 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
   <body class="bg-background">
     <div id="root"></div>
