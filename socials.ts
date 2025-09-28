@@ -4,12 +4,12 @@ import { InstagramIcon, PinterestIcon, SpotifyIcon } from './components/Icons';
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: 'Instagram',
-    url: 'https://www.instagram.com',
+    url: 'https://www.instagram.com/eduardovarenes/',
     icon: InstagramIcon,
   },
   {
     name: 'Pinterest',
-    url: 'https://www.pinterest.com',
+    url: 'https://br.pinterest.com/eduardovarenes/',
     icon: PinterestIcon,
   },
   {
