@@ -3,9 +3,9 @@ import { Book, FeaturedContent } from './types';
 export const BOOKS: Book[] = [
   {
     id: 1,
-    title: "Dune",
+    title: "Em Breve...",
     author: "Frank Herbert",
-    coverUrl: "https://picsum.photos/seed/dune/300/450",
+    coverUrl: "https://i.imgur.com/0T8K6Yc.png",
     linkUrl: "https://www.example.com",
   },
   {
