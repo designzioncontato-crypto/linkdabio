@@ -11,8 +11,8 @@ const App: React.FC = () => {
         <Header
           profileImageUrl="https://i.imgur.com/BRljRxP.jpeg"
           title="Eduardo Varenes"
-          description="Um entusiasta do universo Marvel, fã de Naruto, admirador de Avatar: the last airbender.
-          Gosto muito de filmes de suspense policial, além de amar a Palavra de Deus. Um escritor nas horas vagas. "
+          description="Um entusiasta do universo Marvel, fã de Naruto, admirador de Avatar: The last airbender.
+          Amo a Palavra de Deus. Um escritor tentando."
         />
 
         {FEATURED_CONTENT.enabled && (
