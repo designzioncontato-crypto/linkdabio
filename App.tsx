@@ -9,10 +9,10 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-background text-white">
       <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Header
-          profileImageUrl="https://i.imgur.com/BRljRxP.jpeg"
+          profileImageUrl="https://i.imgur.com/vKV4Swp.png"
           title="Eduardo Varenes"
-          description="Um entusiasta do universo Marvel, fã de Naruto, admirador de Avatar: The last airbender.
-          Amo a Palavra de Deus. Um escritor tentando."
+          description="Um cristão entusiasta do universo Marvel,
+          construindo seus próprios mundos como escritor."
         />
 
         {FEATURED_CONTENT.enabled && (
